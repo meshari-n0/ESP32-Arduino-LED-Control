@@ -34,10 +34,7 @@ The ESP32 sends commands to the Arduino, and the Arduino controls an LED.
 ## Wiring Image
 
 
-## Code
-
-Arduino Code:
-
+## Arduino Code
 ```cpp
 #include <SoftwareSerial.h>
 
@@ -57,7 +54,10 @@ void loop() {
     if (x == '0') digitalWrite(led, LOW);
   }
 }
- ESP32 Code:
+```
+## ESP32 Code
+```cpp
+
 HardwareSerial MySerial(2);
 
 void setup() {
