@@ -31,8 +31,6 @@ The ESP32 sends commands to the Arduino, and the Arduino controls an LED.
 | Pin 8 | Long leg of LED |
 | GND | Short leg of LED |
 
-## Wiring Image
-
 
 ## Arduino Code
 ```cpp
